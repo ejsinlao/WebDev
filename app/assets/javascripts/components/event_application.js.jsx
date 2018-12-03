@@ -1,4 +1,4 @@
-var EventApplication = React.createClass({
+class EventApplication extends React.Component {
   getInitialState: function() {
     return { events: [] };
   },

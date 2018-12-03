@@ -18,7 +18,7 @@ var NewForm = React.createClass({
     var self = this;
     if (this.validForm()) {
       $.ajax({
-        url: '/api/events/create',
+        url: '/api/events',
         method: 'POST',
         data: { event: self.state },
         success: function(data) {
